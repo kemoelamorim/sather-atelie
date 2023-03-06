@@ -1,0 +1,7 @@
+{
+  "name": "atelie-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
