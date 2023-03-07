@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'authenticate',
+    loadChildren: () => import('./authenticate/authenticate.module').then(m => m.AuthenticateModule)
   }
 ];
 
